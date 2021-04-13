@@ -1,7 +1,7 @@
 * {
   padding:0px;
-  background-color: #000000;
-  color: #E5E4E2;
+  background-color: #ecf2f9;
+  color: #12253a;
 }
 
 #nameHeading {
@@ -16,7 +16,7 @@
   border-bottom-style: solid;
 }
 
-#toggle {
+.toggle {
   align-self: center;
   margin-left: auto;
   padding-bottom: 39px;
@@ -27,7 +27,7 @@
 }
 
 img#light {
-  border-bottom: 2px solid #E5E4E2;
+  border-bottom: 2px solid #12253a;
 }
 
 /* Tooltips for dark/light toggle */
@@ -39,8 +39,8 @@ img#light {
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 120px;
-  background-color: black;
-  color: #fff;
+  background-color: #ecf2f9;
+  color: #12253a;
   text-align: center;
   border-radius: 6px;
   position: absolute;
@@ -134,7 +134,7 @@ p {
 
 #contact-home h2:hover, .contact-pages h2:hover {
   text-decoration: underline;
-  text-decoration-color: #E5E4E2;
+  text-decoration-color: #12253a;
 }
 
 details > summary {
@@ -164,7 +164,7 @@ a:link {
 
 a:hover {
   text-decoration: underline;
-  text-decoration-color: #E5E4E2;
+  text-decoration-color: #12253a;
 }
 
 #ravenousImg {

@@ -16,7 +16,7 @@
   border-bottom-style: solid;
 }
 
-#toggle {
+.toggle {
   align-self: center;
   margin-left: auto;
   padding-bottom: 39px;
