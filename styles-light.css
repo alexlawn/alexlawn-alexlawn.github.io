@@ -137,13 +137,10 @@ p {
   text-decoration-color: #12253a;
 }
 
-details > summary {
-  list-style: none;
+summary {
+  display: block;
   outline: none;
-}
-
-details > summary::-webkit-details-marker {
-  display: none;
+  list-style-type: none;
 }
 
 #infoLinks-pages {

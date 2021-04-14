@@ -137,13 +137,10 @@ p {
   text-decoration-color: #E5E4E2;
 }
 
-details > summary {
-  list-style: none;
+summary {
+  display: block;
   outline: none;
-}
-
-details > summary::-webkit-details-marker {
-  display: none;
+  list-style-type: none;
 }
 
 #infoLinks-pages {
@@ -171,3 +168,5 @@ a:hover {
   max-width:100%;
   max-height:100%;
 }
+
+
