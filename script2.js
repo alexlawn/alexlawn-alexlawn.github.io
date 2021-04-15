@@ -11,6 +11,29 @@ const darkStyle = "styles-dark.css";
 // Select the stylesheet <link>
 const theme = document.querySelector(".theme-link");
 
+// 1. Creating object for local storage
+let userPreferences = {
+  light : function() {
+    if(document.querySelector(".theme-link#style").href == "styles-light.css") {
+      return true;
+    } else {
+      return false;
+    }
+  }
+}
+
+// 2. Serializing the object
+let userPreferences_serialized = JSON.stringify(userPreferences);
+
+// 3. Store in localStorage as key:value pair
+localStorage.setItem("light", userPreferences_serialized);
+
+// 4. Deserialize the object before using it
+let userPreferences_deserialized = JSON.parse(localStorage.getItem("light"));
+
+console.log(userPreferences_deserialized);
+
+
   function switchTheme() {
     if (window.localStorage) {
       if (window.localStorage.getItem('light')) {

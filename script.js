@@ -7,7 +7,7 @@ const lightStyle = "styles-light.css";
 const darkStyle = "styles-dark.css";
 
 // Select the stylesheet <link>
-const theme = document.querySelector(".theme-link");
+const theme = document.getElementById("theme");
 
 // Listen for a click on the sun button (buttonLight)
 buttonLight.addEventListener("click", function() {
