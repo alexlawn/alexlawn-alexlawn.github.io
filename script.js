@@ -11,7 +11,7 @@ const theme = document.getElementById("theme");
 
 function lightFunction() {
   theme.href = lightStyle;
-  // different sun for dark theme
+  // different sun for dark/light themes
   document.getElementById("light").src="sun - light.png";
   document.querySelector(".favicon").href = "favicon-light.ico";
   window.localStorage.setItem('theme', 'light');
@@ -19,16 +19,16 @@ function lightFunction() {
 
 function darkFunction() {
   theme.href = darkStyle;
-  // different sun for dark theme
+  // different sun for dark/light themes
   document.getElementById("light").src="sun.jpg";
-  document.querySelector(".favicon").href = "favicon.ico";
+  document.querySelector(".favicon").href = "favicon-dark.ico";
   window.localStorage.setItem('theme', 'dark');
 }
 
-// Listen for a click on the sun button (buttonLight)
+// Listen for a click on the sun picture (buttonLight)
 buttonLight.addEventListener("click", lightFunction);
 
-// Listen for a click on the moon button (buttonDark)
+// Listen for a click on the moon picture (buttonDark)
 buttonDark.addEventListener("click", darkFunction);
 
 const currentTheme = localStorage.getItem("theme");
