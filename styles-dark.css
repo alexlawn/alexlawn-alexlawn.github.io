@@ -68,7 +68,7 @@ img#dark {
 
 body {
   width: 70%;
-  margin: 50px 110px 300px 120px;
+  margin: 10px 110px 300px 120px;
   font: 15px 'Raleway';
   font-family: 'Raleway', sans-serif;
 }
@@ -94,7 +94,7 @@ p {
   flex-direction: row;
   flex-wrap: nowrap;
   width: 100%;
-  padding-bottom: 2em;
+  padding-bottom: 0.5em;
 }
 
 #profilePic-home {
