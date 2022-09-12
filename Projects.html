@@ -69,23 +69,34 @@
             <li>Connected the app search bar to the Spotify search.</li>
             <li>Wrote three methods to obtain and use a Spotify users access token, eventually allowing the user to save the new playlist to their Spotify account.</li>
           </ol>
-          <!--<img id="ravenousImg" src="ravenous.JPG" alt="ravenous web app image">-->
           <br>
           <h3 id="ravenous">Ravenous</h3>
           <p>A full front-end web application that updates automatically and allows you to search for restaurants using the Yelp API. I created the whole app, with occasional help from my tutors.</p>
           <ol>
             <li>Wrote the HTML and CSS for each component.</li>
-            <li>Ideation, experimentation and delivery of improvements to customers</li>
-            <li>Interpreting, troubleshooting and solving technical problems</li>
-            <li>Bringing together and analysing different sources of data, to understand customer behaviour and uncover growth opportunities</li>
+              <ol>
+                <li>Business component simulates a single business</li>
+                <li>BusinessList component simulates a list of single businesses</li>
+                <li>SearchBar component is used to search for businesses</li>
+                <li>App component renders the SearchBar and BusinessList component</li>
+              </ol>
+            <li>Moved business information to the container component (App) and passed information from parent components (App) to child components (BusinessList, Business).</li>
+            <li>Added visual feedback for the sorting options at the top of the search bar.</li>
+            <li>Set the state of sorting options and input elements.</li>
+            <li>Simulated a search query with a “Let's Go” button.</li>
+            <li>Connected the app to the Yelp API to access real-life restaurant information.</li>
+            <li>Removed the hard coded business information.</li>
           </ol>
+          <!--<img id="ravenousImg" src="ravenous.JPG" alt="ravenous web app image">-->
           <br>
-          <h3 id="interests">My interests are in:</h3>
+          <h3 id="expresso">Expresso</h3>
+          <p>The Expresso tool is an internal tool for a hypothetical café. It is a full back-end CRUD API that allows users to create, view, update, and delete menus, menu items, employees and employee timesheets. I built all of the API routing and database logic. I created the tool with occasional help from my tutors.</p>
           <ol>
-            <li>Optimising digital experiences</li>
-            <li>Ideation, experimentation and delivery of improvements to customers</li>
-            <li>Interpreting, troubleshooting and solving technical problems</li>
-            <li>Bringing together and analysing different sources of data, to understand customer behaviour and uncover growth opportunities</li>
+            <li>Created and exported the Express app from a root-level file called server.js</li>
+            <li>Using the root-level database.sqlite as my API's database, I created database tables for employees, timesheets, menus and menu items.</li>
+            <li>I gave each database table appropriate properties. For example, the employee table has properties such as id, name, position and wage.</li>
+            <li>Created all route paths and functionality. For example, the /api/menus route GET request returns a 200 response containing all saved menus on the menus property of the response body.</li>
+            <li>Used a testing suite to check all essential functionality and edge cases.</li>
           </ol>
         </div>
 
